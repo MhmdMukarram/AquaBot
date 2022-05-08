@@ -3,7 +3,7 @@
     "description": "AQUABOT  - Makes it easy and fun to use Whatsapp.",
     "logo": "https://i.ibb.co/LhyDWxR/aquabot.jpg",
     "keywords": ["whatsapp", "userbot", "aqua", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/iamMagma/ptsp",
+    "repository": "https://github.com/vihangabot/AquaBot",
     "website":   "https://aquabot.ga/",
     "success_url": "https://sanuw-api.herokuapp.com/",
     "stack": "container",
