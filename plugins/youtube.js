@@ -52,7 +52,7 @@ let wk = config.WORKTYPE == 'public' ? false : true
     const buttonMessage = {
        
         contentText: msg,
-        footerText: '𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙰𝚀𝚄𝙰𝙱𝙾𝚃 ²⁰²²',
+        footerText: '៚ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ͢⁸⁵⁴¹⃟✦⃝̮̮〽️',
         buttons: buttons,
         headerType: 4 ,
         imageMessage: media.message.imageMessage 
@@ -139,7 +139,7 @@ Aqua.addCommand({pattern: 'asong ?(.*)', fromMe: wk, dontAddCommandList: true, d
    const buttonMessage = {
        
         contentText: msg,
-        footerText: '𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙰𝚀𝚄𝙰𝙱𝙾𝚃 ²⁰²²',
+        footerText: '៚ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ͢⁸⁵⁴¹⃟✦⃝̮̮〽️',
         buttons: buttons,
         headerType: 4 ,
         imageMessage: media.message.imageMessage 
