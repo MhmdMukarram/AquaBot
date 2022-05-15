@@ -32,7 +32,7 @@ let wk = config.WORKTYPE == 'public' ? false : true
       
           
         
-         const msg = '┌───[🐋𝙰𝚀𝚄𝙰𝙱𝙾𝚃🐋]\n\n  *📥SONG DOWNLODER*\n\n│🎧sᴏɴɢ: ' + title2 + '\n\n│ 👀ᴠɪᴇᴡs: ' + views + '\n\n│ 📹 ᴄʜᴀɴɴᴇʟ: ' + author + '\n\n│🖇️ᴜʀʟ: ' + url + '\n\n└───────────◉'
+         const msg = '┌───[⚜️𝙲𝙷𝙸𝙽𝚃𝚄 𝙱𝙾𝚃⚜️]\n\n  *📥SONG DOWNLODER*\n\n│🎧sᴏɴɢ: ' + title2 + '\n\n│ 👀ᴠɪᴇᴡs: ' + views + '\n\n│ 📹 ᴄʜᴀɴɴᴇʟ: ' + author + '\n\n│🖇️ᴜʀʟ: ' + url + '\n\n└───────────◉'
          var logo = await axios.get(thumbnail ,{responseType: 'arraybuffer'});
  
     var PIC = Buffer.from(logo.data)
@@ -52,7 +52,7 @@ let wk = config.WORKTYPE == 'public' ? false : true
     const buttonMessage = {
        
         contentText: msg,
-        footerText: '៚ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ͢⁸⁵⁴¹⃟✦⃝̮̮〽️',
+        footerText: 'ʙʏ ༒︎ʀᴇᴅ ᴀʟᴘʜᴀ༒︎',
         buttons: buttons,
         headerType: 4 ,
         imageMessage: media.message.imageMessage 
@@ -117,7 +117,7 @@ Aqua.addCommand({pattern: 'asong ?(.*)', fromMe: wk, dontAddCommandList: true, d
     let views = s3vid.videos[0].views;
     let author = s3vid.videos[0].author.name;
     let url = s3vid.videos[0].url;
-    let msg = '┌───[🐋𝙰𝚀𝚄𝙰𝙱𝙾𝚃🐋]\n\n  *📥VIDEO DOWNLODER*\n\n│📽️ᴠɪᴅᴇᴏ: ' + title + '\n\n│ 👀ᴠɪᴇᴡs: ' + views + '\n\n│ 📹 ᴄʜᴀɴɴᴇʟ: ' + author + '\n\n│🖇️ᴜʀʟ: ' + url + '\n\n└───────────◉'
+    let msg = '┌───[⚜️𝙲𝙷𝙸𝙽𝚃𝚄 𝙱𝙾𝚃⚜️]\n\n  *📥VIDEO DOWNLODER*\n\n│📽️ᴠɪᴅᴇᴏ: ' + title + '\n\n│ 👀ᴠɪᴇᴡs: ' + views + '\n\n│ 📹 ᴄʜᴀɴɴᴇʟ: ' + author + '\n\n│🖇️ᴜʀʟ: ' + url + '\n\n└───────────◉'
     var logo = await axios.get(thumbnail ,{responseType: 'arraybuffer'});
  
     var PIC = Buffer.from(logo.data)
@@ -139,7 +139,7 @@ Aqua.addCommand({pattern: 'asong ?(.*)', fromMe: wk, dontAddCommandList: true, d
    const buttonMessage = {
        
         contentText: msg,
-        footerText: '៚ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ͢⁸⁵⁴¹⃟✦⃝̮̮〽️',
+        footerText: 'ʙʏ ༒︎ʀᴇᴅ ᴀʟᴘʜᴀ༒︎',
         buttons: buttons,
         headerType: 4 ,
         imageMessage: media.message.imageMessage 
