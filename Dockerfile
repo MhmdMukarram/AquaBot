@@ -1,5 +1,4 @@
-
-FROM aquabotwa/sanuwa-official:beta 
+FROM aquabotwa/sanuwa-official:md-beta
 
 RUN git clone https://github.com/MhmdMukarram/AquaBot /root/aquabot
 WORKDIR /root/aquabot/
